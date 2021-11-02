@@ -360,11 +360,14 @@
             .panel h1 {
                 font-size: 1rem;
             }
+            .content {
+                padding: 20% 0px;
+            }
             .content h2 {
-                font-size: 1rem;
+                font-size: 1.6rem;
             }
             .content p {
-                font-size: 0.8rem;
+                font-size: 1rem;
             }
             .numbers {
                 width: 80%;
@@ -426,8 +429,18 @@
             .panel p {
                 text-align: justify;
             }
+            .content {
+                padding: 40% 10px;
+            }
+            .content h2 {
+                text-align: center;
+                font-size: 1.2rem;
+                display: flex;
+                justify-content: center;
+            }
             .content p {
-                font-size: 0.6rem;
+                text-align: center;
+                font-size: 0.9rem;
             }
             .four-cards {
                 width: 65%;
