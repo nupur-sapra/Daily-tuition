@@ -79,7 +79,7 @@
         }
         
         .cover {
-            background: url('/images/pexels-michael-spadoni-813465.jpg');
+            background: url('images/pexels-michael-spadoni-813465.jpg');
             background-attachment: fixed;
             background-position: center;
             background-size: cover;
