@@ -1,0 +1,461 @@
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        
+        .linear-grad {
+            background-image: linear-gradient(to bottom, #dd2476, #ff512f);
+        }
+        
+        .container-2 {
+            display: flex;
+            align-items: center;
+            color: white;
+            text-align: center;
+            justify-content: center;
+            padding: 20px 0px;
+        }
+        
+        .navbar {
+            position: absolute;
+            width: 100%;
+            left: 0;
+        }
+        
+        header li a {
+            color: whitesmoke;
+        }
+        
+        .navbar ul li a:hover {
+            color: blue;
+        }
+        
+        .headings {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .container-2 h6 {
+            letter-spacing: 5px;
+        }
+        
+        .container-2 h1 {
+            padding: 20px 0px;
+            font-size: 3rem;
+        }
+        
+        .headings button {
+            padding: 10px 30px;
+            font-weight: bold;
+            border-radius: 26px;
+        }
+        
+        .image img {
+            width: 100%;
+        }
+        
+        .container-3 {
+            display: flex;
+            justify-content: center;
+        }
+        
+        .pixels-img img {
+            width: 70%;
+            opacity: 0.8;
+        }
+        
+        .text {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .panel {
+            padding: 20% 30px;
+            background: white;
+            box-shadow: 0 25px 42px rgba(0, 0, 0, 0.7);
+        }
+        
+        .cover {
+            background: url('/images/pexels-michael-spadoni-813465.jpg');
+            background-attachment: fixed;
+            background-position: center;
+            background-size: cover;
+        }
+        
+        .content {
+            background: rgba(0, 0, 0, 0.7);
+            color: white;
+            padding: 10% 0;
+        }
+        
+        .four-cards {
+            display: flex;
+            justify-content: center;
+        }
+        
+        .numbers {
+            margin-top: -30%;
+            padding: 20px 0px;
+            width: 80%;
+            border: none;
+            border-radius: 10px;
+            box-shadow: 1px 2px 50px 0px rgba(255, 0, 0, 0.3);
+        }
+        
+        .card-body h1 {
+            color: #fb4b29d9;
+            font-size: 3rem;
+        }
+        
+        .card-body h6 {
+            color: black;
+            font-weight: bold;
+        }
+        
+        .row-2-content {
+            padding: 10% 0px;
+        }
+        
+        .row-2-content h2 {
+            font-size: 2.5rem;
+        }
+        
+        .row-2-content p {
+            font-size: 1.2rem;
+        }
+        
+        .row-3 {
+            display: flex;
+            justify-content: center;
+        }
+        
+        .back-color {
+            background-color: #d5ecff87;
+            padding: 10px 0px;
+        }
+        
+        .padding-class {
+            padding: 20px 0px;
+        }
+        
+        .margin-middle {
+            margin: 0px 10px;
+        }
+        
+        .prize {
+            background-color: #d5ecff87;
+            padding: 30px 0px;
+            border-top-right-radius: 170px;
+            border-top-left-radius: 170px;
+        }
+        
+        .prize h2 {
+            font-size: 2rem;
+            padding: 30px 0px;
+        }
+        
+        .prize button {
+            border-radius: 18px;
+            padding: 4px 20px;
+            font-size: 0.8rem;
+            font-weight: bold;
+        }
+        
+        .section-3 {
+            background-image: linear-gradient(to bottom, #dd2476, #ff512f);
+        }
+        
+        .container-5 .row {
+            padding: 50px 0px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .app {
+            width: 70%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+        
+        .app p {
+            padding: 30px 0px;
+        }
+        
+        .bt {
+            /* border: black solid; */
+            display: flex;
+        }
+        
+        .btn-text {
+            font-weight: bold;
+            font-size: 1.2rem;
+            padding: 5px 20px;
+        }
+        
+        .btn {
+            border-radius: 28px;
+            margin: 0px 25px;
+        }
+        
+        .btn-text i {
+            padding: 5px 5px;
+            font-size: 1.5rem;
+        }
+        /* comment */
+        
+        .reader {
+            padding: 70px 0px;
+        }
+        
+        .reader-cards {
+            display: flex;
+            justify-content: center;
+        }
+        
+        .three-card {
+            border: none;
+        }
+        
+        .img-3 {
+            display: flex;
+            justify-content: center;
+            padding-top: 30px;
+        }
+        
+        .img-3 img {
+            width: 30%;
+            border-radius: 50px;
+        }
+        
+        .three-card {
+            background-color: rgb(255, 255, 255);
+            box-shadow: 0 25px 42px rgb(131 131 131 / 70%);
+        }
+        
+        .three-card-text {
+            text-align: justify;
+            padding: 0px 5px;
+            padding-top: 20px;
+        }
+        
+        .link {
+            text-align: center;
+        }
+        
+        .link a {
+            font-size: 1.2rem;
+        }
+        
+        .link p {
+            font-size: 0.9rem;
+        }
+        
+        .middle-img img {
+            width: 20%;
+        }
+        
+        footer {
+            margin-top: 20px;
+            background: black;
+        }
+        
+        .footer-row {
+            padding: 50px 0px;
+        }
+        
+        .footer-row h3 {
+            font-size: 1.3rem;
+        }
+        
+        .newsletter input {
+            width: 70%;
+            border: none;
+        }
+        
+        footer .column i {
+            padding: 0px 5px;
+            color: #dd2476;
+        }
+        
+        @media screen and (max-width:992px) {
+            .container-2 {
+                padding-top: 15%;
+            }
+            .pixels-img img {
+                width: 70%;
+            }
+            .panel {
+                font-size: 0.6rem;
+            }
+            .container-2 h1 {
+                font-size: 2rem;
+            }
+            .headings p {
+                text-align: justify;
+            }
+            .numbers {
+                width: 100%;
+                padding: 10px 0px;
+            }
+            .card-body h1 {
+                font-size: 2.5rem;
+            }
+            .card-body h6 {
+                font-size: 0.8rem;
+            }
+            .row-2-content h2 {
+                font-size: 1.8rem;
+            }
+            .row-2-content p {
+                font-size: 1rem;
+            }
+            .row-3 {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+            .margin-middle {
+                margin: 20px 0px;
+            }
+            .prize-box {
+                width: 60%;
+            }
+            .prize {
+                border-top-right-radius: 200px;
+                border-top-left-radius: 200px;
+            }
+            .app {
+                text-align: justify;
+            }
+            .app h2 {
+                font-size: 1.6rem;
+            }
+            .reader-cards {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+            }
+            .three-card-col {
+                width: 60%;
+            }
+        }
+        
+        @media screen and (max-width:768px) {
+            .container-2 .row {
+                display: flex;
+                flex-direction: column-reverse;
+                align-items: center;
+            }
+            .panel {
+                padding: 30px 30px;
+            }
+            .panel h1 {
+                font-size: 1rem;
+            }
+            .content h2 {
+                font-size: 1rem;
+            }
+            .content p {
+                font-size: 0.8rem;
+            }
+            .numbers {
+                width: 80%;
+                margin-top: 20%;
+            }
+            .app h2 {
+                font-size: 1.3rem;
+            }
+            .app p {
+                font-size: 0.9rem;
+            }
+            .bt {
+                display: flex;
+                flex-direction: column;
+            }
+            .btn {
+                border-radius: 28px;
+                margin: 10px 0px;
+            }
+            .btn-text {
+                font-size: 1rem;
+            }
+            .btn-text i {
+                font-size: 1.3rem;
+            }
+            .footer-row {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+            .newsletter {
+                margin: 50px 0px;
+                text-align: center;
+                width: 50%;
+            }
+            .about {
+                text-align: center;
+                width: 70%;
+            }
+            .email input {
+                width: 100%;
+                text-align: center;
+            }
+            .icon {
+                text-align: center;
+            }
+        }
+        
+        @media screen and (max-width:575px) {
+            .container-2 {
+                padding: 50px 20px;
+            }
+            .panel {
+                width: 70%;
+            }
+            .panel h1 {
+                text-align: center;
+            }
+            .panel p {
+                text-align: justify;
+            }
+            .content p {
+                font-size: 0.6rem;
+            }
+            .four-cards {
+                width: 65%;
+            }
+            .row-1 {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+            .numbers {
+                margin-top: 10%;
+            }
+            .numbers h1 {
+                font-size: 2rem;
+            }
+            .row-2-content h2 {
+                font-size: 1.2rem;
+            }
+            .row-2-content p {
+                font-size: 0.8rem;
+            }
+            .three-card-col {
+                width: 90%;
+            }
+            .prize-box {
+                width: 80%;
+            }
+            .newsletter {
+                width: 60%;
+            }
+        }
